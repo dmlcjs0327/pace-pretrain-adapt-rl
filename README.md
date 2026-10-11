@@ -1,6 +1,6 @@
 # PACE: pretrain-adapt controlled evaluation for small RL controllers
 
-Code, pre-registration, analysis tables, and figure scripts for the manuscript
+Code, pre-registration, and analysis tables of the manuscript
 
 > *Does pretrain-then-adapt work for reinforcement learning in small neural networks? Full fine-tuning helps, freezing hurts.*
 > U. Lee and S. Lee, submitted to *Neural Networks* (2026).
@@ -25,7 +25,6 @@ on Hugging Face: <https://huggingface.co/datasets/LUC0327/pace-pretrain-adapt-rl
 | `experiments/domain2/` | The quadruped: data collection on AnymalTerrain, pretraining, the reward-free probe that chose its settings, and the environment wrapper. |
 | `experiments/configs/study2_prereg_v2_ko.md` | The pre-registration, fixed in writing before each stage ran (in Korean, the working language of the authors; the supplementary material of the paper lists every prediction and its outcome in English). |
 | `experiments/logs/study2/` | The run ledger and the analysis tables that the paper's numbers come from (`analysis/*.csv`, `*.json`). The two large tables (`series.csv`, per-iteration returns of every run, and `mech_logs.csv`) are on Hugging Face. |
-| `paper/figsrc/`, `paper/figures/` | The scripts that draw every figure and table of the paper from the analysis tables, and their output. |
 | `data/v3/` | Normalization statistics of the flight data. The data files themselves are on Hugging Face. |
 
 ## Setup
@@ -72,8 +71,6 @@ bash ../scripts/run_eval_progress.sh 1
 # 5. Tables (budgets.csv, series.csv) and the analyses of the paper
 cd ../scripts
 python study2_parse.py && python study2_analyze.py && python study2_review_stats.py
-# 6. Figures
-cd ../../paper/figsrc && python make_v6_figs.py
 ```
 
 Stages of `run_study2.py` and the experiment of the paper that each one is:
