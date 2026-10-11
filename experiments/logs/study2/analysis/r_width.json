@@ -1,0 +1,164 @@
+{
+ "w4|C3|runs": 108,
+ "w4|C3|MAE|FullFT vs scratch|K100": [
+  0.3412,
+  0.2219,
+  0.5387
+ ],
+ "w4|C3|MAE|FullFT vs scratch|K600": [
+  0.5664,
+  0.3771,
+  1.3113
+ ],
+ "w4|C3|MAE|Frozen vs scratch|K100": [
+  -0.0765,
+  -0.0997,
+  0.0137
+ ],
+ "w4|C3|MAE|Frozen vs scratch|K600": [
+  0.4624,
+  0.3204,
+  0.8244
+ ],
+ "w4|C3|MAE|LoRA vs scratch|K100": [
+  0.9557,
+  0.8823,
+  1.0685
+ ],
+ "w4|C3|MAE|LoRA vs scratch|K600": [
+  2.1981,
+  1.8431,
+  2.7485
+ ],
+ "w4|C3|MAE|Frozen vs random|Frozen|K100": [
+  0.1098,
+  0.0543,
+  0.1535
+ ],
+ "w4|C3|MAE|Frozen vs random|Frozen|K600": [
+  0.7916,
+  0.6669,
+  1.1002
+ ],
+ "w4|C3|MAE|LoRA vs random|LoRA|K100": [
+  0.9973,
+  0.8686,
+  1.0831
+ ],
+ "w4|C3|MAE|LoRA vs random|LoRA|K600": [
+  2.1405,
+  1.8784,
+  2.6493
+ ],
+ "w4|C3|MAE|LoRA vs MAE|FullFT|K100": [
+  0.6146,
+  0.3436,
+  0.7836
+ ],
+ "w4|C3|MAE|LoRA vs MAE|FullFT|K600": [
+  1.6316,
+  1.1793,
+  2.3714
+ ],
+ "w4|C3|MAE|Frozen vs MAE|FullFT|K100": [
+  -0.4177,
+  -0.6384,
+  -0.2153
+ ],
+ "w4|C3|MAE|Frozen vs MAE|FullFT|K600": [
+  -0.104,
+  -0.4869,
+  0.2174
+ ],
+ "w4|C3|MAE Frozen / FullFT (T1,T2)": 0.912,
+ "w4|C3|scratch return 600": {
+  "agg_lmf2": 74.0,
+  "agg_x500": 71.6,
+  "recovery_lmf2": 1079.8,
+  "recovery_x500": 364.3,
+  "ss_lmf2_clean": 3576.6,
+  "state_setpoint_x500_clean": 4723.6
+ },
+ "w4|C1|runs": 108,
+ "w4|C1|MAE|FullFT vs scratch|K100": [
+  1.2389,
+  1.1476,
+  1.3533
+ ],
+ "w4|C1|MAE|FullFT vs scratch|K600": [
+  1.8501,
+  0.7074,
+  2.5292
+ ],
+ "w4|C1|MAE|Frozen vs scratch|K100": [
+  -0.0563,
+  -0.0664,
+  -0.0288
+ ],
+ "w4|C1|MAE|Frozen vs scratch|K600": [
+  -0.2259,
+  -0.2984,
+  -0.1732
+ ],
+ "w4|C1|MAE|LoRA vs scratch|K100": [
+  0.913,
+  0.4739,
+  1.5584
+ ],
+ "w4|C1|MAE|LoRA vs scratch|K600": [
+  0.6628,
+  0.4985,
+  0.9671
+ ],
+ "w4|C1|MAE|Frozen vs random|Frozen|K100": [
+  0.1875,
+  0.1189,
+  0.227
+ ],
+ "w4|C1|MAE|Frozen vs random|Frozen|K600": [
+  0.3256,
+  0.2735,
+  0.3618
+ ],
+ "w4|C1|MAE|LoRA vs random|LoRA|K100": [
+  1.0447,
+  0.522,
+  1.7366
+ ],
+ "w4|C1|MAE|LoRA vs random|LoRA|K600": [
+  1.0708,
+  0.9472,
+  1.3288
+ ],
+ "w4|C1|MAE|LoRA vs MAE|FullFT|K100": [
+  -0.3259,
+  -0.7557,
+  0.399
+ ],
+ "w4|C1|MAE|LoRA vs MAE|FullFT|K600": [
+  -1.1873,
+  -2.0285,
+  -0.1419
+ ],
+ "w4|C1|MAE|Frozen vs MAE|FullFT|K100": [
+  -1.2952,
+  -1.3822,
+  -1.1897
+ ],
+ "w4|C1|MAE|Frozen vs MAE|FullFT|K600": [
+  -2.076,
+  -2.7089,
+  -1.0058
+ ],
+ "w4|C1|MAE Frozen / FullFT (T1,T2)": 0.509,
+ "w4|C1|scratch return 600": {
+  "agg_lmf2": 118.6,
+  "agg_x500": 64.1,
+  "recovery_lmf2": 1421.8,
+  "recovery_x500": 1203.2,
+  "ss_lmf2_clean": 5586.4,
+  "state_setpoint_x500_clean": 3177.6
+ },
+ "w8|C3|runs": 10,
+ "w8|R2win|runs": 0
+}

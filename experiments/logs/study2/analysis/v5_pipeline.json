@@ -1,0 +1,269 @@
+{
+ "bptt32|scratch_vs_default|K100": [
+  0.0674,
+  -0.2581,
+  0.3928
+ ],
+ "bptt32|scratch_vs_default|K600": [
+  0.2279,
+  0.1283,
+  0.3274
+ ],
+ "bptt32|MAE_vs_scratch_same_variant|K100": [
+  0.6376,
+  0.4317,
+  0.8435
+ ],
+ "bptt32|default_MAE_vs_default_scratch|K100|same_tasks": [
+  0.8009,
+  0.3649,
+  1.2368
+ ],
+ "bptt32|MAE_vs_scratch_same_variant|K600": [
+  0.3595,
+  -1.3445,
+  2.0635
+ ],
+ "bptt32|default_MAE_vs_default_scratch|K600|same_tasks": [
+  0.7804,
+  0.3824,
+  1.1784
+ ],
+ "bptt32|default_MAE_vs_variant_scratch|K100": [
+  0.7335,
+  0.3859,
+  1.0811
+ ],
+ "bptt32|default_MAE_vs_variant_scratch|K600": [
+  0.5526,
+  0.2335,
+  0.8716
+ ],
+ "bptt32|T3_reach600|variant": {
+  "MAE_bptt32": 0.1437,
+  "random_bptt32": 0.0116
+ },
+ "bptt32|T3_reach600|default": {
+  "MAE": 0.4587,
+  "random": 0.01
+ },
+ "sig05|scratch_vs_default|K100": [
+  0.0563,
+  -0.3661,
+  0.4786
+ ],
+ "sig05|scratch_vs_default|K600": [
+  -0.1526,
+  -0.3283,
+  0.0232
+ ],
+ "sig05|MAE_vs_scratch_same_variant|K100": [
+  0.5625,
+  0.0926,
+  1.0323
+ ],
+ "sig05|default_MAE_vs_default_scratch|K100|same_tasks": [
+  0.8009,
+  0.3649,
+  1.2368
+ ],
+ "sig05|MAE_vs_scratch_same_variant|K600": [
+  0.3877,
+  -0.0335,
+  0.8089
+ ],
+ "sig05|default_MAE_vs_default_scratch|K600|same_tasks": [
+  0.7804,
+  0.3824,
+  1.1784
+ ],
+ "sig05|default_MAE_vs_variant_scratch|K100": [
+  0.7446,
+  0.578,
+  0.9112
+ ],
+ "sig05|default_MAE_vs_variant_scratch|K600": [
+  0.933,
+  0.7088,
+  1.1572
+ ],
+ "sig05|T3_reach600|variant": {
+  "MAE_sig05": 0.0807,
+  "random_sig05": 0.0038
+ },
+ "sig05|T3_reach600|default": {
+  "MAE": 0.4587,
+  "random": 0.01
+ },
+ "runnorm|scratch_vs_default|K100": [
+  0.3066,
+  0.1991,
+  0.414
+ ],
+ "runnorm|scratch_vs_default|K600": [
+  0.2445,
+  0.0145,
+  0.4745
+ ],
+ "runnorm|default_MAE_vs_variant_scratch|K100": [
+  0.4943,
+  0.1655,
+  0.8231
+ ],
+ "runnorm|default_MAE_vs_variant_scratch|K600": [
+  0.5359,
+  0.1979,
+  0.874
+ ],
+ "runnorm|T3_reach600|variant": {
+  "random_runnorm": 0.1014
+ },
+ "runnorm|T3_reach600|default": {
+  "MAE": 0.4587,
+  "random": 0.01
+ },
+ "ent1e3|scratch_vs_default|K100": [
+  0.0641,
+  -0.1173,
+  0.2455
+ ],
+ "ent1e3|scratch_vs_default|K600": [
+  0.0137,
+  -0.084,
+  0.1114
+ ],
+ "ent1e3|MAE_vs_scratch_same_variant|K100": [
+  -0.0082,
+  -0.2232,
+  0.2067
+ ],
+ "ent1e3|default_MAE_vs_default_scratch|K100|same_tasks": [
+  0.1615,
+  -0.452,
+  0.775
+ ],
+ "ent1e3|MAE_vs_scratch_same_variant|K600": [
+  2.2651,
+  0.8497,
+  3.6804
+ ],
+ "ent1e3|default_MAE_vs_default_scratch|K600|same_tasks": [
+  2.2018,
+  1.5379,
+  2.8656
+ ],
+ "ent1e3|default_MAE_vs_variant_scratch|K100": [
+  0.0974,
+  -0.6117,
+  0.8066
+ ],
+ "ent1e3|default_MAE_vs_variant_scratch|K600": [
+  2.1881,
+  1.5013,
+  2.8748
+ ],
+ "ent1e3|T3_reach600|variant": {
+  "MAE_ent1e3": 0.5705,
+  "random_ent1e3": 0.0094
+ },
+ "ent1e3|T3_reach600|default": {
+  "MAE": 0.4587,
+  "random": 0.01
+ },
+ "bptt32|speedup_MAE|q0.8": {
+  "speedup": [
+   1.833,
+   1.796,
+   1.882
+  ],
+  "saved": [
+   84.0,
+   76.5,
+   89.0
+  ],
+  "iters_scratch": 199.5,
+  "iters_pre": 94.5,
+  "reached": 1.0,
+  "n": 12
+ },
+ "bptt32|speedup_MAE|q1.0": {
+  "speedup": [
+   2.198,
+   1.533,
+   2.725
+  ],
+  "saved": [
+   215.5,
+   143.0,
+   293.5
+  ],
+  "iters_scratch": 355.5,
+  "iters_pre": 149.0,
+  "reached": 0.833,
+  "n": 10
+ },
+ "sig05|speedup_MAE|q0.8": {
+  "speedup": [
+   1.777,
+   1.51,
+   1.795
+  ],
+  "saved": [
+   45.0,
+   37.0,
+   53.5
+  ],
+  "iters_scratch": 117.0,
+  "iters_pre": 66.5,
+  "reached": 1.0,
+  "n": 12
+ },
+ "sig05|speedup_MAE|q1.0": {
+  "speedup": [
+   2.006,
+   1.759,
+   2.392
+  ],
+  "saved": [
+   79.0,
+   55.5,
+   96.0
+  ],
+  "iters_scratch": 161.0,
+  "iters_pre": 71.5,
+  "reached": 1.0,
+  "n": 12
+ },
+ "default|speedup_MAE|q0.8": {
+  "speedup": [
+   2.694,
+   2.257,
+   3.214
+  ],
+  "saved": [
+   98.5,
+   74.0,
+   159.5
+  ],
+  "iters_scratch": 177.0,
+  "iters_pre": 66.0,
+  "reached": 1.0,
+  "n": 12
+ },
+ "default|speedup_MAE|q1.0": {
+  "speedup": [
+   2.648,
+   1.94,
+   3.267
+  ],
+  "saved": [
+   147.5,
+   96.0,
+   216.0
+  ],
+  "iters_scratch": 245.0,
+  "iters_pre": 82.5,
+  "reached": 1.0,
+  "n": 12
+ }
+}

@@ -1,0 +1,496 @@
+{
+ "stage40": {
+  "ige_terrain_flat|scratch_ret600_mean": 9.336,
+  "ige_terrain_flat|floor": false,
+  "ige_terrain_flat|MAE|FullFT vs scratch|K100": [
+   -0.0037,
+   -0.6136,
+   1.9741
+  ],
+  "ige_terrain_flat|MAE|FullFT vs scratch|K600": [
+   -0.0106,
+   -0.311,
+   0.436
+  ],
+  "ige_terrain_flat|MAEshuf|P|K600": -5.198,
+  "ige_terrain_flat|MAE|EncFrozen vs scratch|K100": [
+   -0.4461,
+   -0.712,
+   0.1641
+  ],
+  "ige_terrain_flat|MAE|EncFrozen vs random|EncFrozen|K100": [
+   -0.0252,
+   -0.1535,
+   0.2123
+  ],
+  "ige_terrain_flat|MAE|EncFrozen vs scratch|K600": [
+   -0.7117,
+   -0.7892,
+   -0.6272
+  ],
+  "ige_terrain_flat|MAE|EncFrozen vs random|EncFrozen|K600": [
+   -0.087,
+   -0.253,
+   0.1001
+  ],
+  "ige_terrain_flat|MAE|BackboneLoRA vs scratch|K100": [
+   -0.1163,
+   -0.6687,
+   1.3678
+  ],
+  "ige_terrain_flat|MAE|BackboneLoRA vs random|BackboneLoRA|K100": [
+   0.0352,
+   -0.3214,
+   0.455
+  ],
+  "ige_terrain_flat|MAE|BackboneLoRA vs scratch|K600": [
+   -0.4393,
+   -0.5392,
+   -0.2786
+  ],
+  "ige_terrain_flat|MAE|BackboneLoRA vs random|BackboneLoRA|K600": [
+   0.0984,
+   0.0434,
+   0.1577
+  ],
+  "ige_terrain_flat|PIDM|FullFT vs scratch|K100": [
+   0.352,
+   -0.266,
+   2.5686
+  ],
+  "ige_terrain_flat|PIDM|FullFT vs scratch|K600": [
+   0.6939,
+   0.1764,
+   1.5064
+  ],
+  "ige_terrain_flat|PIDMshuf|P|K600": 0.408,
+  "ige_terrain_flat|PIDM|EncFrozen vs scratch|K100": [
+   0.0537,
+   -0.361,
+   0.9916
+  ],
+  "ige_terrain_flat|PIDM|EncFrozen vs random|EncFrozen|K100": [
+   0.4746,
+   0.1439,
+   0.958
+  ],
+  "ige_terrain_flat|PIDM|EncFrozen vs scratch|K600": [
+   -0.5799,
+   -0.6799,
+   -0.4388
+  ],
+  "ige_terrain_flat|PIDM|EncFrozen vs random|EncFrozen|K600": [
+   0.0448,
+   -0.106,
+   0.1679
+  ],
+  "ige_terrain_flat|PIDM|BackboneLoRA vs scratch|K100": [
+   -0.0835,
+   -0.4272,
+   0.6466
+  ],
+  "ige_terrain_flat|PIDM|BackboneLoRA vs random|BackboneLoRA|K100": [
+   0.068,
+   -1.1859,
+   0.6379
+  ],
+  "ige_terrain_flat|PIDM|BackboneLoRA vs scratch|K600": [
+   -0.3733,
+   -0.6081,
+   -0.0002
+  ],
+  "ige_terrain_flat|PIDM|BackboneLoRA vs random|BackboneLoRA|K600": [
+   0.1644,
+   -0.0437,
+   0.5499
+  ],
+  "ige_terrain_flat_blind|scratch_ret600_mean": 6.778,
+  "ige_terrain_flat_blind|floor": false,
+  "ige_terrain_flat_blind|MAE|FullFT vs scratch|K100": [
+   -0.2471,
+   -0.4707,
+   0.0702
+  ],
+  "ige_terrain_flat_blind|MAE|FullFT vs scratch|K600": [
+   0.4029,
+   -0.0315,
+   0.8584
+  ],
+  "ige_terrain_flat_blind|MAEshuf|P|K600": 1.321,
+  "ige_terrain_flat_blind|MAE|EncFrozen vs scratch|K100": [
+   -0.2579,
+   -0.5624,
+   0.0453
+  ],
+  "ige_terrain_flat_blind|MAE|EncFrozen vs random|EncFrozen|K100": [
+   0.0929,
+   -0.0654,
+   0.2159
+  ],
+  "ige_terrain_flat_blind|MAE|EncFrozen vs scratch|K600": [
+   -0.6643,
+   -0.7346,
+   -0.5949
+  ],
+  "ige_terrain_flat_blind|MAE|EncFrozen vs random|EncFrozen|K600": [
+   -0.1647,
+   -0.4259,
+   0.0487
+  ],
+  "ige_terrain_flat_blind|MAE|BackboneLoRA vs scratch|K100": [
+   -0.4494,
+   -0.6249,
+   -0.0781
+  ],
+  "ige_terrain_flat_blind|MAE|BackboneLoRA vs random|BackboneLoRA|K100": [
+   -0.1132,
+   -0.3785,
+   0.0679
+  ],
+  "ige_terrain_flat_blind|MAE|BackboneLoRA vs scratch|K600": [
+   -0.3611,
+   -0.5036,
+   -0.2538
+  ],
+  "ige_terrain_flat_blind|MAE|BackboneLoRA vs random|BackboneLoRA|K600": [
+   0.1249,
+   0.0598,
+   0.2106
+  ],
+  "ige_terrain_flat_blind|PIDM|FullFT vs scratch|K100": [
+   0.216,
+   -0.1457,
+   1.0881
+  ],
+  "ige_terrain_flat_blind|PIDM|FullFT vs scratch|K600": [
+   0.5892,
+   0.2525,
+   1.0598
+  ],
+  "ige_terrain_flat_blind|PIDMshuf|P|K600": 0.372,
+  "ige_terrain_flat_blind|PIDM|EncFrozen vs scratch|K100": [
+   -0.2217,
+   -0.4896,
+   0.3525
+  ],
+  "ige_terrain_flat_blind|PIDM|EncFrozen vs random|EncFrozen|K100": [
+   0.1292,
+   0.0133,
+   0.4392
+  ],
+  "ige_terrain_flat_blind|PIDM|EncFrozen vs scratch|K600": [
+   -0.4194,
+   -0.5292,
+   -0.313
+  ],
+  "ige_terrain_flat_blind|PIDM|EncFrozen vs random|EncFrozen|K600": [
+   0.0802,
+   -0.1284,
+   0.2689
+  ],
+  "ige_terrain_flat_blind|PIDM|BackboneLoRA vs scratch|K100": [
+   -0.1644,
+   -0.3756,
+   0.3184
+  ],
+  "ige_terrain_flat_blind|PIDM|BackboneLoRA vs random|BackboneLoRA|K100": [
+   0.1718,
+   -0.0668,
+   0.4588
+  ],
+  "ige_terrain_flat_blind|PIDM|BackboneLoRA vs scratch|K600": [
+   -0.307,
+   -0.4486,
+   -0.1955
+  ],
+  "ige_terrain_flat_blind|PIDM|BackboneLoRA vs random|BackboneLoRA|K600": [
+   0.179,
+   0.1262,
+   0.2345
+  ]
+ },
+ "stage40_speed": {
+  "MAE|speedup|q0.5": {
+   "speedup": [
+    1.002,
+    0.391,
+    1.099
+   ],
+   "saved": [
+    0.5,
+    -229.0,
+    13.5
+   ],
+   "iters_scratch": 157.0,
+   "iters_pre": 159.0,
+   "reached": 1.0,
+   "n": 10
+  },
+  "MAE|speedup|q0.8": {
+   "speedup": [
+    1.263,
+    NaN,
+    NaN
+   ],
+   "saved": [
+    56.0,
+    NaN,
+    NaN
+   ],
+   "iters_scratch": 241.0,
+   "iters_pre": 191.0,
+   "reached": 0.7,
+   "n": 7
+  },
+  "MAE|speedup|q1.0": {
+   "speedup": [
+    2.232,
+    2.046,
+    2.462
+   ],
+   "saved": [
+    266.0,
+    266.0,
+    271.0
+   ],
+   "iters_scratch": 495.0,
+   "iters_pre": 253.0,
+   "reached": 0.7,
+   "n": 7
+  },
+  "PIDM|speedup|q0.5": {
+   "speedup": [
+    1.205,
+    1.187,
+    1.298
+   ],
+   "saved": [
+    30.5,
+    22.5,
+    37.5
+   ],
+   "iters_scratch": 157.0,
+   "iters_pre": 131.0,
+   "reached": 1.0,
+   "n": 10
+  },
+  "PIDM|speedup|q0.8": {
+   "speedup": [
+    1.347,
+    1.115,
+    2.07
+   ],
+   "saved": [
+    61.0,
+    27.5,
+    126.5
+   ],
+   "iters_scratch": 250.0,
+   "iters_pre": 173.0,
+   "reached": 1.0,
+   "n": 10
+  },
+  "PIDM|speedup|q1.0": {
+   "speedup": [
+    2.425,
+    1.686,
+    3.113
+   ],
+   "saved": [
+    275.5,
+    202.5,
+    336.0
+   ],
+   "iters_scratch": 504.0,
+   "iters_pre": 201.0,
+   "reached": 1.0,
+   "n": 10
+  }
+ },
+ "stage41": {
+  "ige_terrain_rough|scratch_ret600_mean": 7.429,
+  "ige_terrain_rough|floor": false,
+  "ige_terrain_rough|MAE|FullFT vs scratch|K100": [
+   -0.2921,
+   -0.5173,
+   0.043
+  ],
+  "ige_terrain_rough|MAE|FullFT vs scratch|K300": [
+   -0.0807,
+   -0.3657,
+   0.2057
+  ],
+  "ige_terrain_rough|MAE|FullFT vs scratch|K600": [
+   -0.067,
+   -0.2535,
+   0.0946
+  ],
+  "ige_terrain_rough|MAE|EncFrozen vs scratch|K100": [
+   -0.2663,
+   -0.4842,
+   0.1266
+  ],
+  "ige_terrain_rough|MAE|EncFrozen vs random|EncFrozen|K100": [
+   0.1862,
+   0.0069,
+   0.458
+  ],
+  "ige_terrain_rough|MAE|EncFrozen vs scratch|K300": [
+   -0.5848,
+   -0.6583,
+   -0.4981
+  ],
+  "ige_terrain_rough|MAE|EncFrozen vs random|EncFrozen|K300": [
+   0.0339,
+   -0.042,
+   0.1015
+  ],
+  "ige_terrain_rough|MAE|EncFrozen vs scratch|K600": [
+   -0.6487,
+   -0.7276,
+   -0.5765
+  ],
+  "ige_terrain_rough|MAE|EncFrozen vs random|EncFrozen|K600": [
+   -0.0306,
+   -0.1283,
+   0.0694
+  ],
+  "ige_terrain_rough|PIDM|FullFT vs scratch|K100": [
+   -0.0708,
+   -0.4088,
+   0.5453
+  ],
+  "ige_terrain_rough|PIDM|FullFT vs scratch|K300": [
+   0.0293,
+   -0.1179,
+   0.1707
+  ],
+  "ige_terrain_rough|PIDM|FullFT vs scratch|K600": [
+   0.0572,
+   0.0013,
+   0.113
+  ],
+  "ige_terrain_rough|PIDM|EncFrozen vs scratch|K100": [
+   -0.0836,
+   -0.4746,
+   0.6409
+  ],
+  "ige_terrain_rough|PIDM|EncFrozen vs random|EncFrozen|K100": [
+   0.369,
+   0.0879,
+   0.771
+  ],
+  "ige_terrain_rough|PIDM|EncFrozen vs scratch|K300": [
+   -0.532,
+   -0.6468,
+   -0.418
+  ],
+  "ige_terrain_rough|PIDM|EncFrozen vs random|EncFrozen|K300": [
+   0.0866,
+   -0.0649,
+   0.2427
+  ],
+  "ige_terrain_rough|PIDM|EncFrozen vs scratch|K600": [
+   -0.494,
+   -0.575,
+   -0.4187
+  ],
+  "ige_terrain_rough|PIDM|EncFrozen vs random|EncFrozen|K600": [
+   0.124,
+   -0.0491,
+   0.2873
+  ],
+  "ige_terrain_rough_curr|scratch_ret600_mean": 7.604,
+  "ige_terrain_rough_curr|floor": false,
+  "ige_terrain_rough_curr|MAE|FullFT vs scratch|K100": [
+   -0.3128,
+   -0.6319,
+   0.3205
+  ],
+  "ige_terrain_rough_curr|MAE|FullFT vs scratch|K300": [
+   0.0178,
+   -0.4396,
+   0.3786
+  ],
+  "ige_terrain_rough_curr|MAE|FullFT vs scratch|K600": [
+   0.0158,
+   -0.2366,
+   0.2124
+  ],
+  "ige_terrain_rough_curr|MAE|EncFrozen vs scratch|K100": [
+   -0.4914,
+   -0.7243,
+   -0.0025
+  ],
+  "ige_terrain_rough_curr|MAE|EncFrozen vs random|EncFrozen|K100": [
+   -0.0835,
+   -0.3153,
+   0.2511
+  ],
+  "ige_terrain_rough_curr|MAE|EncFrozen vs scratch|K300": [
+   -0.5769,
+   -0.69,
+   -0.4328
+  ],
+  "ige_terrain_rough_curr|MAE|EncFrozen vs random|EncFrozen|K300": [
+   0.0346,
+   -0.0597,
+   0.1765
+  ],
+  "ige_terrain_rough_curr|MAE|EncFrozen vs scratch|K600": [
+   -0.6363,
+   -0.6873,
+   -0.5798
+  ],
+  "ige_terrain_rough_curr|MAE|EncFrozen vs random|EncFrozen|K600": [
+   0.0425,
+   -0.0577,
+   0.1883
+  ],
+  "ige_terrain_rough_curr|PIDM|FullFT vs scratch|K100": [
+   -0.2573,
+   -0.4574,
+   0.1267
+  ],
+  "ige_terrain_rough_curr|PIDM|FullFT vs scratch|K300": [
+   0.3024,
+   0.1477,
+   0.5118
+  ],
+  "ige_terrain_rough_curr|PIDM|FullFT vs scratch|K600": [
+   0.256,
+   0.1617,
+   0.3662
+  ],
+  "ige_terrain_rough_curr|PIDM|EncFrozen vs scratch|K100": [
+   -0.216,
+   -0.4277,
+   0.1522
+  ],
+  "ige_terrain_rough_curr|PIDM|EncFrozen vs random|EncFrozen|K100": [
+   0.192,
+   -0.0022,
+   0.4496
+  ],
+  "ige_terrain_rough_curr|PIDM|EncFrozen vs scratch|K300": [
+   -0.474,
+   -0.5664,
+   -0.4004
+  ],
+  "ige_terrain_rough_curr|PIDM|EncFrozen vs random|EncFrozen|K300": [
+   0.1375,
+   -0.0012,
+   0.2803
+  ],
+  "ige_terrain_rough_curr|PIDM|EncFrozen vs scratch|K600": [
+   -0.4945,
+   -0.5461,
+   -0.4537
+  ],
+  "ige_terrain_rough_curr|PIDM|EncFrozen vs random|EncFrozen|K600": [
+   0.1843,
+   0.0621,
+   0.3216
+  ]
+ }
+}

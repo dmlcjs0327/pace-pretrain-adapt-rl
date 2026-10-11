@@ -1,0 +1,376 @@
+{
+ "tasks": [
+  "agg_lmf2",
+  "agg_x500",
+  "recovery_lmf2",
+  "recovery_x500",
+  "ss_lmf2_clean",
+  "state_setpoint_x500_clean"
+ ],
+ "random|Frozen|G_vs_scratch|K100": {
+  "mean": -0.4833,
+  "t95": [
+   -0.839,
+   -0.1275
+  ],
+  "p": 0.0281
+ },
+ "random|Frozen|G_vs_scratch|K600": {
+  "mean": -0.5427,
+  "t95": [
+   -0.6449,
+   -0.4404
+  ],
+  "p": 0.0019
+ },
+ "random|whiten|G_vs_scratch|K100": {
+  "mean": -0.2029,
+  "t95": [
+   -0.6353,
+   0.2294
+  ],
+  "p": 0.1808
+ },
+ "random|whiten|G_vs_scratch|K600": {
+  "mean": -0.2012,
+  "t95": [
+   -0.3927,
+   -0.0097
+  ],
+  "p": 0.0456
+ },
+ "random|whiten|vs_plain_Frozen|K600": {
+  "mean": 0.3415,
+  "t95": [
+   0.1765,
+   0.5065
+  ],
+  "p": 0.0124
+ },
+ "random|skip|G_vs_scratch|K100": {
+  "mean": -0.3262,
+  "t95": [
+   -0.7299,
+   0.0775
+  ],
+  "p": 0.0737
+ },
+ "random|skip|G_vs_scratch|K600": {
+  "mean": -0.3488,
+  "t95": [
+   -0.4051,
+   -0.2926
+  ],
+  "p": 0.0014
+ },
+ "random|skip|vs_plain_Frozen|K600": {
+  "mean": 0.1938,
+  "t95": [
+   0.1294,
+   0.2582
+  ],
+  "p": 0.0059
+ },
+ "random|ratio|T1T2|Frozen": 0.2459,
+ "random|ratio|T1T2|whiten": 0.6455,
+ "random|recovered|T1T2|whiten": {
+  "mean": 0.5303,
+  "seeds": {
+   "7": 0.6187,
+   "42": 0.5672,
+   "99": 0.4051
+  }
+ },
+ "random|ratio|T1T2|skip": 0.4749,
+ "random|recovered|T1T2|skip": {
+  "mean": 0.3041,
+  "seeds": {
+   "7": 0.2869,
+   "42": 0.3787,
+   "99": 0.2467
+  }
+ },
+ "random|ratio|all|Frozen": 0.4582,
+ "random|ratio|all|whiten": 0.807,
+ "random|recovered|all|whiten": {
+  "mean": 0.6427,
+  "seeds": {
+   "7": 0.7917,
+   "42": 0.6135,
+   "99": 0.5227
+  }
+ },
+ "random|ratio|all|skip": 0.6611,
+ "random|recovered|all|skip": {
+  "mean": 0.3743,
+  "seeds": {
+   "7": 0.407,
+   "42": 0.3661,
+   "99": 0.3497
+  }
+ },
+ "MAE|Frozen|G_vs_scratch|K100": {
+  "mean": -0.276,
+  "t95": [
+   -0.5962,
+   0.0442
+  ],
+  "p": 0.0656
+ },
+ "MAE|Frozen|G_vs_scratch|K600": {
+  "mean": -0.4053,
+  "t95": [
+   -0.5411,
+   -0.2694
+  ],
+  "p": 0.006
+ },
+ "MAE|whiten|G_vs_scratch|K100": {
+  "mean": 0.093,
+  "t95": [
+   -0.0979,
+   0.2838
+  ],
+  "p": 0.1711
+ },
+ "MAE|whiten|G_vs_scratch|K600": {
+  "mean": 0.0197,
+  "t95": [
+   -0.0397,
+   0.0791
+  ],
+  "p": 0.2891
+ },
+ "MAE|whiten|vs_plain_Frozen|K600": {
+  "mean": 0.425,
+  "t95": [
+   0.3486,
+   0.5015
+  ],
+  "p": 0.0017
+ },
+ "MAE|skip|G_vs_scratch|K100": {
+  "mean": -0.2488,
+  "t95": [
+   -0.5759,
+   0.0783
+  ],
+  "p": 0.0821
+ },
+ "MAE|skip|G_vs_scratch|K600": {
+  "mean": -0.3211,
+  "t95": [
+   -0.4314,
+   -0.2108
+  ],
+  "p": 0.0063
+ },
+ "MAE|skip|vs_plain_Frozen|K600": {
+  "mean": 0.0842,
+  "t95": [
+   0.0569,
+   0.1115
+  ],
+  "p": 0.0056
+ },
+ "MAE|ratio|T1T2|Frozen": 0.3716,
+ "MAE|ratio|T1T2|whiten": 0.8956,
+ "MAE|recovered|T1T2|whiten": {
+  "mean": 0.8338,
+  "seeds": {
+   "7": 0.8332,
+   "42": 0.729,
+   "99": 0.9393
+  }
+ },
+ "MAE|ratio|T1T2|skip": 0.4577,
+ "MAE|recovered|T1T2|skip": {
+  "mean": 0.1372,
+  "seeds": {
+   "7": 0.1265,
+   "42": 0.0771,
+   "99": 0.208
+  }
+ },
+ "MAE|ratio|all|Frozen": 0.3777,
+ "MAE|ratio|all|whiten": 0.7443,
+ "MAE|recovered|all|whiten": {
+  "mean": 0.5924,
+  "seeds": {
+   "7": 0.5893,
+   "42": 0.5011,
+   "99": 0.6868
+  }
+ },
+ "MAE|ratio|all|skip": 0.4408,
+ "MAE|recovered|all|skip": {
+  "mean": 0.1028,
+  "seeds": {
+   "7": 0.0978,
+   "42": 0.0716,
+   "99": 0.139
+  }
+ },
+ "PIDM|Frozen|G_vs_scratch|K100": {
+  "mean": -0.1724,
+  "t95": [
+   -0.6246,
+   0.2797
+  ],
+  "p": 0.2426
+ },
+ "PIDM|Frozen|G_vs_scratch|K600": {
+  "mean": -0.2372,
+  "t95": [
+   -0.3415,
+   -0.1328
+  ],
+  "p": 0.0103
+ },
+ "PIDM|whiten|G_vs_scratch|K100": {
+  "mean": 0.1209,
+  "t95": [
+   -0.2008,
+   0.4427
+  ],
+  "p": 0.2473
+ },
+ "PIDM|whiten|G_vs_scratch|K600": {
+  "mean": 0.0811,
+  "t95": [
+   -0.1578,
+   0.3201
+  ],
+  "p": 0.2815
+ },
+ "PIDM|whiten|vs_plain_Frozen|K600": {
+  "mean": 0.3183,
+  "t95": [
+   0.1695,
+   0.4671
+  ],
+  "p": 0.0116
+ },
+ "PIDM|skip|G_vs_scratch|K100": {
+  "mean": -0.0881,
+  "t95": [
+   -0.571,
+   0.3948
+  ],
+  "p": 0.5146
+ },
+ "PIDM|skip|G_vs_scratch|K600": {
+  "mean": -0.1338,
+  "t95": [
+   -0.3151,
+   0.0476
+  ],
+  "p": 0.0866
+ },
+ "PIDM|skip|vs_plain_Frozen|K600": {
+  "mean": 0.1034,
+  "t95": [
+   -0.0093,
+   0.2161
+  ],
+  "p": 0.0586
+ },
+ "PIDM|ratio|T1T2|Frozen": 0.5883,
+ "PIDM|ratio|T1T2|whiten": 0.8371,
+ "PIDM|recovered|T1T2|whiten": {
+  "mean": 0.5935,
+  "seeds": {
+   "7": 0.6837,
+   "42": 0.5923,
+   "99": 0.5046
+  }
+ },
+ "PIDM|ratio|T1T2|skip": 0.7797,
+ "PIDM|recovered|T1T2|skip": {
+  "mean": 0.4494,
+  "seeds": {
+   "7": 0.5289,
+   "42": 0.5045,
+   "99": 0.3149
+  }
+ },
+ "PIDM|ratio|all|Frozen": 0.5804,
+ "PIDM|ratio|all|whiten": 0.7918,
+ "PIDM|recovered|all|whiten": {
+  "mean": 0.5147,
+  "seeds": {
+   "7": 0.479,
+   "42": 0.4605,
+   "99": 0.6048
+  }
+ },
+ "PIDM|ratio|all|skip": 0.7084,
+ "PIDM|recovered|all|skip": {
+  "mean": 0.2968,
+  "seeds": {
+   "7": 0.3351,
+   "42": 0.3254,
+   "99": 0.2299
+  }
+ },
+ "supervised|random|Frozen": {
+  "value": 0.5691,
+  "action": 0.6907
+ },
+ "supervised|random|whiten|head64": {
+  "value": 0.8388,
+  "action": 0.9053
+ },
+ "supervised|random|skip|head64": {
+  "value": 0.7246,
+  "action": 0.8141
+ },
+ "supervised|random|whiten|head0": {
+  "value": 0.6317,
+  "action": 0.8066
+ },
+ "supervised|random|none|head0": {
+  "value": 0.3969,
+  "action": 0.5052
+ },
+ "supervised|MAE|Frozen": {
+  "value": 0.8093,
+  "action": 0.8264
+ },
+ "supervised|MAE|whiten|head64": {
+  "value": 0.8896,
+  "action": 0.9013
+ },
+ "supervised|MAE|skip|head64": {
+  "value": 0.8285,
+  "action": 0.8672
+ },
+ "supervised|MAE|whiten|head0": {
+  "value": 0.6985,
+  "action": 0.7671
+ },
+ "supervised|MAE|none|head0": {
+  "value": 0.6379,
+  "action": 0.7105
+ },
+ "supervised|PIDM|Frozen": {
+  "value": 0.7899,
+  "action": 0.8788
+ },
+ "supervised|PIDM|whiten|head64": {
+  "value": 0.8771,
+  "action": 0.9207
+ },
+ "supervised|PIDM|skip|head64": {
+  "value": 0.8196,
+  "action": 0.8962
+ },
+ "supervised|PIDM|whiten|head0": {
+  "value": 0.6852,
+  "action": 0.8367
+ },
+ "supervised|PIDM|none|head0": {
+  "value": 0.6062,
+  "action": 0.7949
+ }
+}

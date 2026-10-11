@@ -1,0 +1,581 @@
+{
+ "none|random|FullFT|agg_x500|reach": [
+  0.0,
+  0.0026,
+  0.0
+ ],
+ "none|random|FullFT|agg_x500|ret": [
+  37.1,
+  65.6,
+  52.8
+ ],
+ "none|random|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0039
+  ]
+ ],
+ "none|random|FullFT|agg_lmf2|reach": [
+  0.0234,
+  0.0091,
+  0.0104
+ ],
+ "none|random|FullFT|agg_lmf2|ret": [
+  87.1,
+  79.6,
+  77.8
+ ],
+ "none|random|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0039
+  ],
+  [
+   0.0,
+   0.0195,
+   0.0
+  ]
+ ],
+ "none|MAE|FullFT|agg_x500|reach": [
+  0.1966,
+  0.1432,
+  0.6914
+ ],
+ "none|MAE|FullFT|agg_x500|ret": [
+  135.8,
+  121.2,
+  283.4
+ ],
+ "none|MAE|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0039,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0117,
+   0.0
+  ]
+ ],
+ "none|MAE|FullFT|agg_lmf2|reach": [
+  0.8763,
+  0.569,
+  0.0208
+ ],
+ "none|MAE|FullFT|agg_lmf2|ret": [
+  310.3,
+  322.0,
+  84.4
+ ],
+ "none|MAE|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0117,
+   0.0039,
+   0.0039
+  ],
+  [
+   0.0078,
+   0.1016,
+   0.0
+  ]
+ ],
+ "none|PIDM|FullFT|agg_x500|reach": [
+  0.5781,
+  0.5443,
+  0.3346
+ ],
+ "none|PIDM|FullFT|agg_x500|ret": [
+  249.5,
+  271.6,
+  170.0
+ ],
+ "none|PIDM|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "none|PIDM|FullFT|agg_lmf2|reach": [
+  0.125,
+  0.0247,
+  0.0117
+ ],
+ "none|PIDM|FullFT|agg_lmf2|ret": [
+  106.0,
+  90.0,
+  82.1
+ ],
+ "none|PIDM|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0039,
+   0.0117
+  ],
+  [
+   0.0234,
+   0.0078,
+   0.0
+  ]
+ ],
+ "none|MAE|BackboneLoRA|agg_x500|reach": [
+  0.0,
+  0.0938,
+  0.0221
+ ],
+ "none|MAE|BackboneLoRA|agg_x500|ret": [
+  65.0,
+  90.9,
+  72.5
+ ],
+ "none|MAE|BackboneLoRA|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0039,
+   0.0078
+  ]
+ ],
+ "none|MAE|BackboneLoRA|agg_lmf2|reach": [
+  0.0404,
+  0.0391,
+  0.0299
+ ],
+ "none|MAE|BackboneLoRA|agg_lmf2|ret": [
+  90.6,
+  91.8,
+  86.9
+ ],
+ "none|MAE|BackboneLoRA|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0039,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0117
+  ]
+ ],
+ "none|G_reach_vs_scratch|MAE|FullFT": [
+  0.4086,
+  0.3503,
+  0.5247
+ ],
+ "none|G_reach_vs_scratch|PIDM|FullFT": [
+  0.2622,
+  0.168,
+  0.3398
+ ],
+ "none|G_reach_vs_scratch|MAE|BackboneLoRA": [
+  0.0299,
+  0.0085,
+  0.0605
+ ],
+ "none|scratch_reach_mean": 0.0076,
+ "none|n_runs": 24,
+ "S14_curriculum|random|FullFT|agg_x500|reach": [
+  0.2448,
+  0.056,
+  0.1589
+ ],
+ "S14_curriculum|random|FullFT|agg_x500|ret": [
+  204.3,
+  88.9,
+  153.6
+ ],
+ "S14_curriculum|random|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0078,
+   0.0391,
+   0.0078
+  ]
+ ],
+ "S14_curriculum|random|FullFT|agg_lmf2|reach": [
+  0.2214,
+  0.0625,
+  0.1081
+ ],
+ "S14_curriculum|random|FullFT|agg_lmf2|ret": [
+  188.9,
+  108.1,
+  128.5
+ ],
+ "S14_curriculum|random|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0039
+  ],
+  [
+   0.0469,
+   0.2422,
+   0.0977
+  ]
+ ],
+ "S14_curriculum|MAE|FullFT|agg_x500|reach": [
+  0.0482,
+  0.0234,
+  0.0156
+ ],
+ "S14_curriculum|MAE|FullFT|agg_x500|ret": [
+  81.3,
+  80.5,
+  71.7
+ ],
+ "S14_curriculum|MAE|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0039,
+   0.0039,
+   0.0039
+  ],
+  [
+   0.1484,
+   0.1406,
+   0.1133
+  ]
+ ],
+ "S14_curriculum|MAE|FullFT|agg_lmf2|reach": [
+  0.3398,
+  0.0846,
+  0.3854
+ ],
+ "S14_curriculum|MAE|FullFT|agg_lmf2|ret": [
+  255.3,
+  120.9,
+  285.4
+ ],
+ "S14_curriculum|MAE|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0039
+  ],
+  [
+   0.2617,
+   0.1523,
+   0.1641
+  ]
+ ],
+ "S14_curriculum|PIDM|FullFT|agg_x500|reach": [
+  0.0195,
+  0.0677,
+  0.0586
+ ],
+ "S14_curriculum|PIDM|FullFT|agg_x500|ret": [
+  82.7,
+  115.7,
+  113.8
+ ],
+ "S14_curriculum|PIDM|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0039,
+   0.0117,
+   0.0781
+  ],
+  [
+   0.1055,
+   0.0547,
+   0.0781
+  ]
+ ],
+ "S14_curriculum|PIDM|FullFT|agg_lmf2|reach": [
+  0.1315,
+  0.2253,
+  0.2904
+ ],
+ "S14_curriculum|PIDM|FullFT|agg_lmf2|ret": [
+  151.2,
+  194.1,
+  262.6
+ ],
+ "S14_curriculum|PIDM|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.2305,
+   0.1016,
+   0.1875
+  ]
+ ],
+ "S14_curriculum|MAE|BackboneLoRA|agg_x500|reach": [
+  0.0052,
+  0.0234,
+  0.0104
+ ],
+ "S14_curriculum|MAE|BackboneLoRA|agg_x500|ret": [
+  61.6,
+  67.0,
+  58.2
+ ],
+ "S14_curriculum|MAE|BackboneLoRA|agg_x500|reach_it25_100": [
+  [
+   0.0039,
+   0.0,
+   0.0078
+  ],
+  [
+   0.0039,
+   0.0078,
+   0.0273
+  ]
+ ],
+ "S14_curriculum|MAE|BackboneLoRA|agg_lmf2|reach": [
+  0.2161,
+  0.4674,
+  0.3112
+ ],
+ "S14_curriculum|MAE|BackboneLoRA|agg_lmf2|ret": [
+  202.1,
+  283.2,
+  239.5
+ ],
+ "S14_curriculum|MAE|BackboneLoRA|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0664,
+   0.0469,
+   0.0938
+  ]
+ ],
+ "S14_curriculum|G_reach_vs_scratch|MAE|FullFT": [
+  0.0076,
+  -0.0391,
+  0.0671
+ ],
+ "S14_curriculum|G_reach_vs_scratch|PIDM|FullFT": [
+  -0.0098,
+  -0.1576,
+  0.0872
+ ],
+ "S14_curriculum|G_reach_vs_scratch|MAE|BackboneLoRA": [
+  0.0304,
+  -0.1224,
+  0.1862
+ ],
+ "S14_curriculum|scratch_reach_mean": 0.1419,
+ "S14_curriculum|n_runs": 24,
+ "S15_relterm|random|FullFT|agg_x500|reach": [
+  0.0,
+  0.0,
+  0.0352
+ ],
+ "S15_relterm|random|FullFT|agg_x500|ret": [
+  35.9,
+  28.9,
+  80.3
+ ],
+ "S15_relterm|random|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "S15_relterm|random|FullFT|agg_lmf2|reach": [
+  0.0273,
+  0.0039,
+  0.0156
+ ],
+ "S15_relterm|random|FullFT|agg_lmf2|ret": [
+  88.1,
+  77.3,
+  84.0
+ ],
+ "S15_relterm|random|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0039,
+   0.0,
+   0.0039
+  ]
+ ],
+ "S15_relterm|MAE|FullFT|agg_x500|reach": [
+  0.0052,
+  0.0013,
+  0.0026
+ ],
+ "S15_relterm|MAE|FullFT|agg_x500|ret": [
+  68.3,
+  45.3,
+  70.1
+ ],
+ "S15_relterm|MAE|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0039,
+   0.0,
+   0.0
+  ]
+ ],
+ "S15_relterm|MAE|FullFT|agg_lmf2|reach": [
+  0.3346,
+  0.0664,
+  0.0
+ ],
+ "S15_relterm|MAE|FullFT|agg_lmf2|ret": [
+  157.1,
+  101.8,
+  75.1
+ ],
+ "S15_relterm|MAE|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0078,
+   0.0039,
+   0.0039
+  ],
+  [
+   0.0195,
+   0.0234,
+   0.0117
+  ]
+ ],
+ "S15_relterm|PIDM|FullFT|agg_x500|reach": [
+  0.0013,
+  0.4401,
+  0.0026
+ ],
+ "S15_relterm|PIDM|FullFT|agg_x500|ret": [
+  68.2,
+  196.4,
+  71.0
+ ],
+ "S15_relterm|PIDM|FullFT|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "S15_relterm|PIDM|FullFT|agg_lmf2|reach": [
+  0.0469,
+  0.0573,
+  0.0
+ ],
+ "S15_relterm|PIDM|FullFT|agg_lmf2|ret": [
+  91.9,
+  100.7,
+  73.8
+ ],
+ "S15_relterm|PIDM|FullFT|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0078,
+   0.0117
+  ],
+  [
+   0.0,
+   0.0,
+   0.0117
+  ]
+ ],
+ "S15_relterm|MAE|BackboneLoRA|agg_x500|reach": [
+  0.0013,
+  0.0,
+  0.0
+ ],
+ "S15_relterm|MAE|BackboneLoRA|agg_x500|ret": [
+  54.3,
+  53.3,
+  54.4
+ ],
+ "S15_relterm|MAE|BackboneLoRA|agg_x500|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0039,
+   0.0,
+   0.0
+  ]
+ ],
+ "S15_relterm|MAE|BackboneLoRA|agg_lmf2|reach": [
+  0.0,
+  0.0,
+  0.0013
+ ],
+ "S15_relterm|MAE|BackboneLoRA|agg_lmf2|ret": [
+  74.3,
+  58.5,
+  75.6
+ ],
+ "S15_relterm|MAE|BackboneLoRA|agg_lmf2|reach_it25_100": [
+  [
+   0.0,
+   0.0,
+   0.0078
+  ],
+  [
+   0.0,
+   0.0,
+   0.0117
+  ]
+ ],
+ "S15_relterm|G_reach_vs_scratch|MAE|FullFT": [
+  0.0547,
+  -0.0241,
+  0.1562
+ ],
+ "S15_relterm|G_reach_vs_scratch|PIDM|FullFT": [
+  0.0777,
+  -0.0241,
+  0.2467
+ ],
+ "S15_relterm|G_reach_vs_scratch|MAE|BackboneLoRA": [
+  -0.0132,
+  -0.0247,
+  -0.002
+ ],
+ "S15_relterm|scratch_reach_mean": 0.0137,
+ "S15_relterm|n_runs": 24
+}

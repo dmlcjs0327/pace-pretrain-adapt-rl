@@ -1,0 +1,10 @@
+# Python 3.8. Isaac Gym Preview 4 is installed separately (NVIDIA license).
+torch==2.4.1+cu118
+rl-games==1.6.5
+warp-lang==1.0.0
+numpy==1.23.0
+h5py
+pandas
+scipy
+matplotlib
+pyyaml

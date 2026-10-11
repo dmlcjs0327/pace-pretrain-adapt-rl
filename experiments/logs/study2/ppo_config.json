@@ -1,0 +1,16 @@
+{
+ "chosen": "C3",
+ "config": {
+  "learning_rate": 0.0001,
+  "lr_schedule": "adaptive",
+  "kl_threshold": 0.016,
+  "max_lr": 0.001
+ },
+ "scores": {
+  "C1": 1.1128,
+  "C2": 0.755,
+  "C3": 1.1323
+ },
+ "rule": "pre-registration v2 section 2",
+ "written": "2026-10-01T08:08:38"
+}

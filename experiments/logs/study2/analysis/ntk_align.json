@@ -1,0 +1,118 @@
+{
+ "speed_value|speedup_q0.8": {
+  "rho": 0.315,
+  "p": 0.1093,
+  "n": 27
+ },
+ "speed_value|speedup_q1.0": {
+  "rho": 0.463,
+  "p": 0.0196,
+  "n": 25
+ },
+ "speed_value|g100_full": {
+  "rho": 0.39,
+  "p": 0.0445,
+  "n": 27
+ },
+ "speed_action|speedup_q0.8": {
+  "rho": 0.109,
+  "p": 0.5893,
+  "n": 27
+ },
+ "speed_action|speedup_q1.0": {
+  "rho": 0.054,
+  "p": 0.7981,
+  "n": 25
+ },
+ "speed_action|g100_full": {
+  "rho": 0.062,
+  "p": 0.7598,
+  "n": 27
+ },
+ "speed_value_c|speedup_q0.8": {
+  "rho": 0.341,
+  "p": 0.0813,
+  "n": 27
+ },
+ "speed_value_c|speedup_q1.0": {
+  "rho": 0.329,
+  "p": 0.1078,
+  "n": 25
+ },
+ "speed_value_c|g100_full": {
+  "rho": 0.348,
+  "p": 0.0756,
+  "n": 27
+ },
+ "speed_action_c|speedup_q0.8": {
+  "rho": 0.037,
+  "p": 0.8536,
+  "n": 27
+ },
+ "speed_action_c|speedup_q1.0": {
+  "rho": 0.227,
+  "p": 0.275,
+  "n": 25
+ },
+ "speed_action_c|g100_full": {
+  "rho": 0.045,
+  "p": 0.8228,
+  "n": 27
+ },
+ "per_backbone": {
+  "BC": {
+   "speed_value_c": 2.262,
+   "speed_action_c": 7.774,
+   "speedup_q0.8": 0.406,
+   "g100_full": -0.35
+  },
+  "CPC": {
+   "speed_value_c": 2.776,
+   "speed_action_c": 3.963,
+   "speedup_q0.8": 1.398,
+   "g100_full": 0.084
+  },
+  "FDM": {
+   "speed_value_c": 4.905,
+   "speed_action_c": 7.355,
+   "speedup_q0.8": 1.909,
+   "g100_full": 0.346
+  },
+  "IDM": {
+   "speed_value_c": 4.183,
+   "speed_action_c": 6.175,
+   "speedup_q0.8": 1.53,
+   "g100_full": 0.213
+  },
+  "MAE": {
+   "speed_value_c": 1.506,
+   "speed_action_c": 1.798,
+   "speedup_q0.8": 2.637,
+   "g100_full": 0.442
+  },
+  "MAEs": {
+   "speed_value_c": 5.319,
+   "speed_action_c": 11.014,
+   "speedup_q0.8": 2.158,
+   "g100_full": 0.334
+  },
+  "PIDM": {
+   "speed_value_c": 3.432,
+   "speed_action_c": 5.9,
+   "speedup_q0.8": 2.947,
+   "g100_full": 0.417
+  },
+  "SPR": {
+   "speed_value_c": 3.434,
+   "speed_action_c": 3.586,
+   "speedup_q0.8": 1.628,
+   "g100_full": 0.155
+  },
+  "random": {
+   "speed_value_c": 0.59,
+   "speed_action_c": 1.18,
+   "speedup_q0.8": 1.0,
+   "g100_full": 0.0
+  }
+ }
+}

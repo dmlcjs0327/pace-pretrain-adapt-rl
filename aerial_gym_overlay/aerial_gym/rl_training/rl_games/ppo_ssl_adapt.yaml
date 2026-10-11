@@ -1,0 +1,85 @@
+# PPO configuration shared by every run of the study (rl-games). run_study2.py sets name, env_name, max_epochs,
+# seed, and params.network.pretrain_adapt (ssl_backbone_ckpt, adapt_mode, ...) per run.
+
+params:
+  seed: 42
+  algo:
+    name: a2c_continuous
+
+  model:
+    name: continuous_a2c_logstd
+
+  load_checkpoint: False
+
+  network:
+    name: aerial_gym_pretrain_adapt
+    separate: False
+    space:
+      continuous:
+        mu_activation: None
+        sigma_activation: None
+        mu_init:
+          name: default
+        sigma_init:
+          name: const_initializer
+          val: 0
+        fixed_sigma: True
+    pretrain_adapt:
+      proprio_dim: 13            # state-only (PositionSetpointTask obs)
+      use_vae_branch: false
+      action_dim: 4
+      proprio_hidden: 64
+      fusion_hidden: 128
+      fusion_layers: 2
+      use_gru: true
+      gru_hidden: 128
+      head_hidden: 64
+      log_std_init: 0.0
+      fixed_sigma: true
+      # SSL extension (run_grid_ssl.py cell inject):
+      # ssl_backbone_ckpt: <path>
+      # adapt_mode: FullFT|EncFrozen|LateFT|FrozenLoRA
+      # lora_rank: 8
+
+  config:
+    env_name: state_setpoint_baseQuad_clean   # dispatcher overrides
+    env_config:
+      num_envs: 4096
+
+    name: ssl_adapt_default
+    reward_shaper:
+      scale_value: 0.1
+
+    normalize_advantage: True
+    gamma: 0.99
+    tau: 0.95
+    ppo: True
+    learning_rate: 1.0e-4
+    lr_schedule: adaptive
+    kl_threshold: 0.008          # 0.016 → 0.008: KL lr
+    save_best_after: 0           # 50 → 0: peak ep25 best ckpt
+    save_frequency: 25
+    score_to_win: 100000
+    grad_norm: 1.0
+    entropy_coef: 0.01           # 0.005 → 0.01: (collapse
+    truncate_grads: True
+    e_clip: 0.2
+    clip_value: False
+    num_actors: 4096
+    horizon_length: 32
+    minibatch_size: 16384
+    mini_epochs: 2               # 4 → 2 (Andrychowicz 2021 "What Matters in PPO" over-fit
+    critic_coef: 2
+    normalize_input: True
+    bounds_loss_coef: 0.0001
+    max_epochs: 763             # B_down = 1.0e8 (smoke
+    normalize_value: True
+    use_diagnostics: True
+    value_bootstrap: True
+    use_smooth_clamp: False
+    torch_compile: false        # LoRALinear manual matmul → torch._dynamo
+
+    player:
+      render: False
+      deterministic: True
+      games_num: 100

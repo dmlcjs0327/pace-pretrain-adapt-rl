@@ -1,0 +1,69 @@
+{
+ "M4|points": 12,
+ "M4|widths": [
+  0.5,
+  1.0,
+  2.0,
+  4.0
+ ],
+ "M4|spearman|d_eff|frozen_vs_scratch": [
+  0.916,
+  0.0,
+  12
+ ],
+ "M4|spearman|d_eff|frozen_vs_random_frozen": [
+  0.762,
+  0.004,
+  12
+ ],
+ "M4|spearman|d_eff|fullft_vs_scratch": [
+  0.35,
+  0.2652,
+  12
+ ],
+ "M4|spearman|r2_value|frozen_vs_scratch": [
+  0.923,
+  0.0,
+  12
+ ],
+ "M4|spearman|r2_value|frozen_vs_random_frozen": [
+  0.769,
+  0.0034,
+  12
+ ],
+ "M4|spearman|r2_value|fullft_vs_scratch": [
+  0.399,
+  0.1993,
+  12
+ ],
+ "M4|per_width_mean": {
+  "0.5": {
+   "d_eff": 6.732,
+   "r2_value": 0.634,
+   "frozen_vs_scratch": -0.52,
+   "frozen_vs_random_frozen": 0.158,
+   "fullft_vs_scratch": 0.191
+  },
+  "1.0": {
+   "d_eff": 7.547,
+   "r2_value": 0.687,
+   "frozen_vs_scratch": -0.396,
+   "frozen_vs_random_frozen": 0.146,
+   "fullft_vs_scratch": 0.798
+  },
+  "2.0": {
+   "d_eff": 10.349,
+   "r2_value": 0.742,
+   "frozen_vs_scratch": -0.236,
+   "frozen_vs_random_frozen": 0.273,
+   "fullft_vs_scratch": 0.345
+  },
+  "4.0": {
+   "d_eff": 11.503,
+   "r2_value": 0.787,
+   "frozen_vs_scratch": 0.58,
+   "frozen_vs_random_frozen": 0.895,
+   "fullft_vs_scratch": 0.724
+  }
+ }
+}

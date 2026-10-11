@@ -1,0 +1,12 @@
+run_id,stage,task,init,mode,seed,iters,exit,wall_s,finished
+s2__stcost__state_setpoint_x500_clean__random__FullFT__seed7__it600,cost,state_setpoint_x500_clean,random,FullFT,7,600,0,240.2,2026-10-11T19:09:54
+s2__stcost__state_setpoint_x500_clean__random__L2SP__seed7__it600,cost,state_setpoint_x500_clean,random,L2SP,7,600,0,240.2,2026-10-11T19:13:54
+s2__stcost__state_setpoint_x500_clean__BC__BCreg__seed7__it600,cost,state_setpoint_x500_clean,BC,BCreg,7,600,0,240.2,2026-10-11T19:17:54
+s2__stcost__state_setpoint_x500_clean__random__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,random,AuxSSL,7,600,0,300.2,2026-10-11T19:22:55
+s2__stcost__state_setpoint_x500_clean__MAE__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,MAE,AuxSSL,7,600,0,300.2,2026-10-11T19:27:55
+s2__stcost__state_setpoint_x500_clean__CPC__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,CPC,AuxSSL,7,600,0,480.4,2026-10-11T19:35:55
+s2__stcost__state_setpoint_x500_clean__SPR__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,SPR,AuxSSL,7,600,0,300.2,2026-10-11T19:40:56
+s2__stcost__state_setpoint_x500_clean__PIDM__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,PIDM,AuxSSL,7,600,0,300.2,2026-10-11T19:45:56
+s2__stcost__state_setpoint_x500_clean__IDM__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,IDM,AuxSSL,7,600,0,300.2,2026-10-11T19:50:56
+s2__stcost__state_setpoint_x500_clean__FDM__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,FDM,AuxSSL,7,600,0,300.3,2026-10-11T19:55:56
+s2__stcost__state_setpoint_x500_clean__MAEs__AuxSSL__seed7__it600,cost,state_setpoint_x500_clean,MAEs,AuxSSL,7,600,0,300.3,2026-10-11T20:00:57

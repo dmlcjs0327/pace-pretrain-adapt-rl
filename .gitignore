@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.h5
+*.npz
+*.pth
+*.pt
+!experiments/automation/aux_random_*.pt
+!experiments/domain2/data/terrain_stats.pt
+!data/v3/*.pt
+experiments/logs/study2/*.log
+experiments/logs/study2/*.claim
+experiments/logs/study2/_yaml/
+experiments/logs/study2/analysis/series.csv
+experiments/logs/study2/analysis/mech_logs.csv
+runs/

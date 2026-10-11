@@ -1,0 +1,167 @@
+{
+ "best_scratch_30": 104.47,
+ "runs": [
+  {
+   "run_id": "s2__st13__agg_lmf2__MAE__BackboneLoRA__seed7__it1800",
+   "task": "agg_lmf2",
+   "mode": "BackboneLoRA",
+   "seed": 7,
+   "takeoff": 318.0,
+   "max30_600": 126.0007,
+   "max30_1800": 126.0007,
+   "reach600": 0.0555,
+   "reach1200": 0.007,
+   "reach1800": 0.0098
+  },
+  {
+   "run_id": "s2__st13__agg_lmf2__MAE__BackboneLoRA__seed42__it1800",
+   "task": "agg_lmf2",
+   "mode": "BackboneLoRA",
+   "seed": 42,
+   "takeoff": 532.0,
+   "max30_600": 121.5369,
+   "max30_1800": 287.0872,
+   "reach600": 0.1339,
+   "reach1200": 0.8225,
+   "reach1800": 0.7543
+  },
+  {
+   "run_id": "s2__st13__agg_lmf2__MAE__BackboneLoRA__seed99__it1800",
+   "task": "agg_lmf2",
+   "mode": "BackboneLoRA",
+   "seed": 99,
+   "takeoff": 908.0,
+   "max30_600": 97.8616,
+   "max30_1800": 106.7962,
+   "reach600": 0.0566,
+   "reach1200": 0.0447,
+   "reach1800": 0.0342
+  },
+  {
+   "run_id": "s2__st13__agg_x500__MAE__BackboneLoRA__seed7__it1800",
+   "task": "agg_x500",
+   "mode": "BackboneLoRA",
+   "seed": 7,
+   "takeoff": NaN,
+   "max30_600": 73.2093,
+   "max30_1800": 77.5874,
+   "reach600": 0.0042,
+   "reach1200": 0.0049,
+   "reach1800": 0.0126
+  },
+  {
+   "run_id": "s2__st13__agg_x500__MAE__BackboneLoRA__seed42__it1800",
+   "task": "agg_x500",
+   "mode": "BackboneLoRA",
+   "seed": 42,
+   "takeoff": 689.0,
+   "max30_600": 90.807,
+   "max30_1800": 250.0954,
+   "reach600": 0.082,
+   "reach1200": 0.459,
+   "reach1800": 0.6007
+  },
+  {
+   "run_id": "s2__st13__agg_x500__MAE__BackboneLoRA__seed99__it1800",
+   "task": "agg_x500",
+   "mode": "BackboneLoRA",
+   "seed": 99,
+   "takeoff": 1198.0,
+   "max30_600": 75.9154,
+   "max30_1800": 145.6006,
+   "reach600": 0.0232,
+   "reach1200": 0.1289,
+   "reach1800": 0.2654
+  },
+  {
+   "run_id": "s2__st13__agg_lmf2__MAE__LPFT__seed7__it1800",
+   "task": "agg_lmf2",
+   "mode": "LPFT",
+   "seed": 7,
+   "takeoff": 558.0,
+   "max30_600": 113.2978,
+   "max30_1800": 120.3145,
+   "reach600": 0.1104,
+   "reach1200": 0.0244,
+   "reach1800": 0.0152
+  },
+  {
+   "run_id": "s2__st13__agg_lmf2__MAE__LPFT__seed42__it1800",
+   "task": "agg_lmf2",
+   "mode": "LPFT",
+   "seed": 42,
+   "takeoff": 625.0,
+   "max30_600": 101.1777,
+   "max30_1800": 140.0004,
+   "reach600": 0.1057,
+   "reach1200": 0.1296,
+   "reach1800": 0.0234
+  },
+  {
+   "run_id": "s2__st13__agg_lmf2__MAE__LPFT__seed99__it1800",
+   "task": "agg_lmf2",
+   "mode": "LPFT",
+   "seed": 99,
+   "takeoff": NaN,
+   "max30_600": 80.8919,
+   "max30_1800": 86.2895,
+   "reach600": 0.0027,
+   "reach1200": 0.0014,
+   "reach1800": 0.0021
+  },
+  {
+   "run_id": "s2__st13__agg_x500__MAE__LPFT__seed7__it1800",
+   "task": "agg_x500",
+   "mode": "LPFT",
+   "seed": 7,
+   "takeoff": 265.0,
+   "max30_600": 143.0942,
+   "max30_1800": 143.0942,
+   "reach600": 0.1701,
+   "reach1200": 0.026,
+   "reach1800": 0.0018
+  },
+  {
+   "run_id": "s2__st13__agg_x500__MAE__LPFT__seed42__it1800",
+   "task": "agg_x500",
+   "mode": "LPFT",
+   "seed": 42,
+   "takeoff": NaN,
+   "max30_600": 67.8315,
+   "max30_1800": 81.4939,
+   "reach600": 0.0016,
+   "reach1200": 0.0066,
+   "reach1800": 0.002
+  },
+  {
+   "run_id": "s2__st13__agg_x500__MAE__LPFT__seed99__it1800",
+   "task": "agg_x500",
+   "mode": "LPFT",
+   "seed": 99,
+   "takeoff": 406.0,
+   "max30_600": 194.1057,
+   "max30_1800": 269.4506,
+   "reach600": 0.4762,
+   "reach1200": 0.621,
+   "reach1800": 0.0264
+  }
+ ],
+ "summary|BackboneLoRA": {
+  "n": 6,
+  "first_takeoff_after_600": 3,
+  "takeoff_by_600": 2,
+  "never": 1,
+  "reach600": 0.0592,
+  "reach1200": 0.2445,
+  "reach1800": 0.2795
+ },
+ "summary|LPFT": {
+  "n": 6,
+  "first_takeoff_after_600": 1,
+  "takeoff_by_600": 3,
+  "never": 2,
+  "reach600": 0.1445,
+  "reach1200": 0.1348,
+  "reach1800": 0.0118
+ }
+}

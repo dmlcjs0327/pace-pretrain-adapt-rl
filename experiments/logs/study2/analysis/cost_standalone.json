@@ -1,0 +1,54 @@
+{
+ "t_collect": 47.4,
+ "t_collect_parts": {
+  "x500_normal.h5": 10.2,
+  "x500_upset.h5": 9.3,
+  "lmf2_normal.h5": 10.3,
+  "lmf2_upset.h5": 9.2,
+  "merge": 8.4
+ },
+ "t_pre": {
+  "MAE": 247.5,
+  "CPC": 968.2,
+  "SPR": 840.0,
+  "PIDM": 336.2,
+  "IDM": 345.1,
+  "FDM": 547.2,
+  "BC": 242.1,
+  "MAEs": 249.0
+ },
+ "t_refit": {
+  "CPC": 145.1,
+  "MAE": 30.8,
+  "PIDM": 48.3,
+  "SPR": 140.2
+ },
+ "t_rl": {
+  "random|FullFT": 232.9,
+  "random|L2SP": 236.0,
+  "BC|BCreg": 219.3,
+  "random|AuxSSL": 246.0,
+  "MAE|AuxSSL": 251.3,
+  "CPC|AuxSSL": 445.1,
+  "SPR|AuxSSL": 284.2,
+  "PIDM|AuxSSL": 254.6,
+  "IDM|AuxSSL": 255.7,
+  "FDM|AuxSSL": 268.3,
+  "MAEs|AuxSSL": 240.6
+ },
+ "measured": "2026-10-11T20:00:57",
+ "t_rl_poll": {
+  "random|FullFT": 240.2,
+  "random|L2SP": 240.3,
+  "BC|BCreg": 240.2,
+  "random|AuxSSL": 300.3,
+  "MAE|AuxSSL": 300.2,
+  "CPC|AuxSSL": 480.4,
+  "SPR|AuxSSL": 300.3,
+  "PIDM|AuxSSL": 300.2,
+  "IDM|AuxSSL": 300.2,
+  "FDM|AuxSSL": 300.3,
+  "MAEs|AuxSSL": 300.3
+ },
+ "t_rl_note": "t_rl from the run logs (launch time to last write); t_rl_poll from the 60-s poll of dispatch()"
+}

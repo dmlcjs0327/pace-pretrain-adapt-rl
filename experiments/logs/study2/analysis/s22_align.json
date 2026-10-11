@@ -1,0 +1,26 @@
+{
+ "cka_action|g100_full": {
+  "rho": 0.064,
+  "n": 39
+ },
+ "cka_action|g600_frozen": {
+  "rho": 0.351,
+  "n": 27
+ },
+ "cka_value|g100_full": {
+  "rho": 0.627,
+  "n": 39
+ },
+ "cka_value|g600_frozen": {
+  "rho": 0.235,
+  "n": 27
+ },
+ "erank|g100_full": {
+  "rho": 0.091,
+  "n": 39
+ },
+ "erank|g600_frozen": {
+  "rho": 0.281,
+  "n": 27
+ }
+}
