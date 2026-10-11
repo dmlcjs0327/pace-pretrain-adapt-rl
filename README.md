@@ -19,7 +19,7 @@ on Hugging Face: <https://huggingface.co/datasets/LUC0327/pace-pretrain-adapt-rl
 
 | Path | Content |
 |---|---|
-| `aerial_gym_overlay/` | Our additions and modifications to [Aerial Gym Simulator](https://github.com/ntnu-arl/aerial_gym_simulator) v2.0.0: the pretraining package (`aerial_gym/ssl_pretrain`), the policy with adaptation modes (`aerial_gym/nn`, `aerial_gym/rl_training/rl_games`), the tasks T1-T3 and their variants, and the airframes R2 (X500) and R3 (LMF2). `setup/apply_overlay.sh` copies it onto an upstream clone. |
+| `aerial_gym_overlay/` | Our additions and modifications to [Aerial Gym Simulator](https://github.com/ntnu-arl/aerial_gym_simulator) v2.0.0: the pretraining package (`aerial_gym/ssl_pretrain`), the policy with adaptation modes (`aerial_gym/nn`, `aerial_gym/rl_training/rl_games`), the tasks T1-T3 and their variants, the airframes R2 (X500) and R3 (LMF2), and the X500 model (`resources/robots/x500`). `setup/apply_overlay.sh` copies it onto an upstream clone. |
 | `experiments/scripts/` | Flight-data collection, pretraining, evaluation, and every analysis script (`study2_*.py`). |
 | `experiments/automation/` | The run dispatcher `run_study2.py` (one stage per experiment, see the table below), the GPU worker loop, and the pretraining chains (`side_jobs_*.sh`). |
 | `experiments/domain2/` | The quadruped: data collection on AnymalTerrain, pretraining, the reward-free probe that chose its settings, and the environment wrapper. |
