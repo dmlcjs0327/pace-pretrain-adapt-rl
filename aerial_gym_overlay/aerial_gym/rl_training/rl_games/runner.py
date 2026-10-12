@@ -1,6 +1,6 @@
 import os as _os
 from pathlib import Path as _Path
-_EXP_ROOT = _os.environ.get("PACE_EXPERIMENTS", "/opt/pace-pretrain-adapt-rl/experiments")
+_EXP_ROOT = _os.environ.get("PACE_EXPERIMENTS", "/opt/pretrain-then-adapt-rl-small-networks/experiments")
 import inspect
 import numpy as np
 import os

@@ -1,9 +1,8 @@
-# PACE: pretrain-adapt controlled evaluation for small RL controllers
+# Does pretrain-then-adapt work for reinforcement learning in small neural networks?
 
-Code, pre-registration, and analysis tables of the manuscript
-
-> *Does pretrain-then-adapt work for reinforcement learning in small neural networks? Full fine-tuning helps, freezing hurts.*
-> U. Lee and S. Lee, submitted to *Neural Networks* (2026).
+Code, pre-registration, and analysis tables of the manuscript of the same title by U. Lee and S. Lee, submitted to
+*Neural Networks* (2026). The paper calls its evaluation protocol PACE (pretrain-adapt controlled evaluation), and
+the environment variables below carry that name.
 
 The study pretrains a small recurrent backbone (encoder + GRU, 145,801 weights in the full policy) on reward-free
 flight data with eight objectives, adapts it to three quadrotor tasks on three airframes with nine adaptation modes,
@@ -13,7 +12,7 @@ and a cost account complete the comparison, and a quadruped (ANYmal, flat ground
 comparison on a second robot. `experiments/logs/study2/ledger.csv` lists every RL run with its stage, and the paper reports 4,551 of them.
 
 The large artifacts (flight data, pretrained backbones, run logs, per-iteration tables) are in the companion dataset
-on Hugging Face: <https://huggingface.co/datasets/LUC0327/pace-pretrain-adapt-rl>.
+on Hugging Face: <https://huggingface.co/datasets/LUC0327/pretrain-then-adapt-rl-small-networks>.
 
 ## Layout
 

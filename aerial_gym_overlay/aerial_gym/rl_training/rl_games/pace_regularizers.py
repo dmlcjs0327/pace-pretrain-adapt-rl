@@ -13,7 +13,7 @@ fixed statistics, as in pretraining; each call uses 256 of them.
 """
 import os as _os
 from pathlib import Path as _Path
-_DATA_ROOT = _os.environ.get("PACE_DATA", "/opt/pace-pretrain-adapt-rl/data")
+_DATA_ROOT = _os.environ.get("PACE_DATA", "/opt/pretrain-then-adapt-rl-small-networks/data")
 import copy
 
 import h5py
