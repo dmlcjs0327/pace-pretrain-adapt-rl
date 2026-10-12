@@ -23,7 +23,7 @@ on Hugging Face: <https://huggingface.co/datasets/LUC0327/pace-pretrain-adapt-rl
 | `experiments/scripts/` | Flight-data collection, pretraining, evaluation, and every analysis script (`study2_*.py`). |
 | `experiments/automation/` | The run dispatcher `run_study2.py` (one stage per experiment, see the table below), the GPU worker loop, and the pretraining chains (`side_jobs_*.sh`). |
 | `experiments/domain2/` | The quadruped: data collection on AnymalTerrain, pretraining, the reward-free probe that chose its settings, and the environment wrapper. |
-| `experiments/configs/study2_prereg_v2_ko.md` | The pre-registration, fixed in writing before each stage ran (in Korean, the working language of the authors; the supplementary material of the paper lists every prediction and its outcome in English). |
+| `experiments/configs/study2_prereg_v2_ko.md` | The pre-registration, in Korean, the working language of the authors. Every section is time-stamped and was written before the runs it governs, and dated result notes record each outcome. |
 | `experiments/logs/study2/` | The run ledger and the analysis tables that the paper's numbers come from (`analysis/*.csv`, `*.json`). The two large tables (`series.csv`, per-iteration returns of every run, and `mech_logs.csv`) are on Hugging Face. |
 | `data/v3/` | Normalization statistics of the flight data. The data files themselves are on Hugging Face. |
 
